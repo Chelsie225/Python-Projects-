@@ -1,0 +1,33 @@
+
+# Accept letter from user
+letter = input("Enter letter (upper case or lower case): ")
+
+# Print out Morse Code for letter
+if   (letter == "A" or letter == "a"): print (letter, ".-")
+elif (letter == "B" or letter == "b"): print (letter, "-...")
+elif (letter == "C" or letter == "c"): print (letter, "-.-.")
+elif (letter == "D" or letter == "d"): print (letter, "-..")
+elif (letter == "E" or letter == "e"): print (letter, ".")
+elif (letter == "F" or letter == "f"): print (letter, "..-.")
+elif (letter == "G" or letter == "g"): print (letter, "--.")
+elif (letter == "H" or letter == "h"): print (letter, "....")
+elif (letter == "I" or letter == "i"): print (letter, "..")
+elif (letter == "J" or letter == "j"): print (letter, ".---")
+elif (letter == "K" or letter == "k"): print (letter, "-.-")
+elif (letter == "L" or letter == "l"): print (letter, ".-..")
+elif (letter == "M" or letter == "m"): print (letter, "--")
+elif (letter == "N" or letter == "n"): print (letter, "-.")
+elif (letter == "O" or letter == "o"): print (letter, "---")
+elif (letter == "P" or letter == "p"): print (letter, ".--.")
+elif (letter == "Q" or letter == "q"): print (letter, "--.-")
+elif (letter == "R" or letter == "r"): print (letter, ".-.")
+elif (letter == "S" or letter == "s"): print (letter, "...")
+elif (letter == "T" or letter == "t"): print (letter, "-")
+elif (letter == "U" or letter == "u"): print (letter, "..-")
+elif (letter == "V" or letter == "v"): print (letter, "...-")
+elif (letter == "W" or letter == "w"): print (letter, ".--")
+elif (letter == "X" or letter == "x"): print (letter, "-..-")
+elif (letter == "Y" or letter == "y"): print (letter, "-.--")
+elif (letter == "Z" or letter == "z"): print (letter, "--..")
+else:	print (letter, "Unknown Letter")
+
